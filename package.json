@@ -1,5 +1,5 @@
 {
-  "homepage": "http://owaisislam.github.io/react-portfolio",
+  "homepage": "http://nathannguyen0102.github.io/t9",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
@@ -16,11 +16,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.3"
   }
 }
